@@ -16,6 +16,7 @@ public class int_to_bin {
             num /= 2; // divide the number by 2
         }
         System.out.println("Binary representation: " + binary);
+        val.close();
         return binary;
     }
     public static void main(String[] args) {

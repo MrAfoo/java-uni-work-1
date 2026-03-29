@@ -18,6 +18,7 @@ public class int_to_bin_B {
         for (int bit : binaryArray) {
             System.out.print(bit);
         }
+        sc.close();
     }
     
     public static int[] convertToBinary(int number) {

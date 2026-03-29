@@ -12,7 +12,8 @@ public class factorial {
             fact *= i;
         }
         System.out.println("Factorial of " + num + " is: " + fact);
-        return fact;
+        val.close();
+        return fact;    
     }
     public static void main(String[] args) {
     fact();
