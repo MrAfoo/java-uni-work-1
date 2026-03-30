@@ -5,15 +5,15 @@ Part (a) Write Java program that takes input an integer number and converts it i
 
 import java.util.Scanner;
 public class int_to_bin {
-    public static String intToBinary(){ // function to convert integer to binary
+    public static String intToBinary(){ 
         int num;
         String binary = "";
         Scanner val = new Scanner(System.in);
         System.out.print("Enter an integer number: ");
         num = val.nextInt();
         while (num > 0){
-            binary = (num % 2) + binary; // get the remainder and add it to the front of the binary string
-            num /= 2; // divide the number by 2
+            binary = (num % 2) + binary; 
+            num /= 2; 
         }
         System.out.println("Binary representation: " + binary);
         val.close();
