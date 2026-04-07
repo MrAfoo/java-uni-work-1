@@ -6,6 +6,8 @@ public class try_catch {
             System.out.println(arr[5]); // This will throw an exception
         } catch (ArrayIndexOutOfBoundsException  e) {
             System.out.println("An error occurred: " + e.getMessage());
+        } finally {
+            System.out.println("This block will always execute.");
         }
     }
 }
